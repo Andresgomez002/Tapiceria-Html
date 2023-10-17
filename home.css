@@ -1,0 +1,32 @@
+main{
+    background-color: #dbdcde;
+}
+
+.logo{
+    width: 11%;
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items: center;
+    
+}
+.opciones ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.opciones li{
+    margin: 0 10px;
+}
+
+.opciones li a {
+    text-decoration: none; 
+}
+.barinicio{
+    font-size: 25px;
+    margin-right: 50px;
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
