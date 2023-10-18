@@ -30,3 +30,68 @@ main{
     font-family: 'Playfair Display', serif;
     color: black;
 }
+
+.eleccionTa{
+    display: flex;
+    justify-content: space-around;
+}
+.car{
+    width: 470px;
+    height: 343px;
+    border: black 3px solid;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+}
+
+.texto-superpuesto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white; 
+    padding: 10px; 
+
+    text-align: center; 
+    font-family: 'Playfair Display', serif;
+  }
+  .fondo-negro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Negro con 50% de opacidad */
+}
+
+.tipota{
+    font-family: 'Playfair Display', serif;
+    color: black; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.automotriz{
+    position: relative;
+    display: inline-block;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.muebles{
+    position: relative;
+    display: inline-block;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.galeriab{
+    text-decoration: none;
+}
+
+.textga{
+    font-family: 'Playfair Display', serif;
+    background-color: white;
+    color: black;   
+    font-size: 1rem;
+    font-weight: 300;
+}
+.button{
+    border: 0.5 solid black;
+}
