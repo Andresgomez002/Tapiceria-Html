@@ -1,7 +1,6 @@
 main{
     background-color: #dbdcde;
 }
-
 .logo{
     width: 11%;
 }
@@ -10,7 +9,7 @@ main{
     justify-content: space-between;
     margin-top: 15px;
     align-items: center;
-    margin-bottom: -15px;
+    
     
 }
 .opciones ul{
@@ -103,7 +102,7 @@ main{
     display: inline-block;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
-
+/* botones */
 .boton{
     margin-top: 25px;  
 }
@@ -138,4 +137,30 @@ main{
 }
 .b:hover::before{
     transform: translate(5px, 5px);
+}
+/* Nosotros */
+.nosotros {
+    margin-top: 30px;
+    display: flex;
+}
+.imgnosotros {
+    width: 40%;
+    height: 447px;
+    margin-top: 25px;
+}
+.textus {
+    margin: 50px;
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.aboutus{
+    font-family: 'Playfair Display', serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.n{
+    font-size: 18px;
 }
