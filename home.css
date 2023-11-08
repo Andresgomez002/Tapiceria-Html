@@ -144,12 +144,12 @@ main{
     display: flex;
 }
 .imgnosotros {
-    width: 40%;
-    height: 447px;
-    margin-top: 25px;
+    width: 42%;
+    height: 499px;
+    margin-top: 95px;
 }
 .textus {
-    margin: 50px;
+    margin: 40px;
     margin-top: 20px;
     font-family: 'Playfair Display', serif;
 }
@@ -163,4 +163,21 @@ main{
 }
 .n{
     font-size: 18px;
+}
+
+/*  */
+
+.queincluye{
+    font-family: 'Playfair Display', serif; 
+    display: flex;
+}
+
+.textincluye{
+    margin-right: 40px;
+}
+
+.titleincluye {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
