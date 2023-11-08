@@ -181,3 +181,7 @@ main{
     align-items: center;
     justify-content: space-around;
 }
+.inc {
+    width: 42%;
+    font-size: 26px;
+}
