@@ -1,8 +1,13 @@
 main{
-    background-color: #dbdcde;
+    background-color: #d9d9d9;
+    /* background-color: rgb(22,31,41); */
 }
 .logo{
     width: 11%;
+}
+header{
+    background-color: #161f29;
+    width: 100%;
 }
 .barra{
     display: flex;
@@ -28,7 +33,7 @@ main{
     font-size: 25px;
     margin-right: 50px;
     font-family: 'Playfair Display', serif;
-    color: black;
+    color: white;
     position: relative;
     letter-spacing: 0.7px;
     text-decoration: none;
@@ -36,7 +41,7 @@ main{
 .barinicio::after{
     content: "";
     position: absolute;
-    background-color: black;
+    background-color: white;
     height: 3px;
     width: 0%;
     left: 0;
@@ -47,7 +52,7 @@ main{
     width: 100%;
 }
 .barinicio:hover{
-    color: black;
+    color: white;
 }
 .eleccionTa{
     display: flex;
@@ -188,4 +193,13 @@ main{
 
 img.immgincluye {
     margin-top: 84px;
+}
+
+img.bbb {
+    width: 29%;
+}
+.banner {
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: -15px; */
 }
